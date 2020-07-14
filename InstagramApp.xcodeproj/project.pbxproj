@@ -3,27 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4921454924BAE435004EA61C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4921454824BAE435004EA61C /* AppDelegate.swift */; };
 		4921454B24BAE435004EA61C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4921454A24BAE435004EA61C /* SceneDelegate.swift */; };
-		4921454D24BAE435004EA61C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4921454C24BAE435004EA61C /* ContentView.swift */; };
 		4921454F24BAE439004EA61C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4921454E24BAE439004EA61C /* Assets.xcassets */; };
 		4921455224BAE439004EA61C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4921455124BAE439004EA61C /* Preview Assets.xcassets */; };
 		4921455524BAE439004EA61C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4921455324BAE439004EA61C /* LaunchScreen.storyboard */; };
+		4921455E24BAE48F004EA61C /* LBTATools in Frameworks */ = {isa = PBXBuildFile; productRef = 4921455D24BAE48F004EA61C /* LBTATools */; };
+		4921456024BAE4A0004EA61C /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4921455F24BAE4A0004EA61C /* MainController.swift */; };
+		49A17FFA24BE13D70059D3D8 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A17FF924BE13D70059D3D8 /* PostCell.swift */; };
+		49A17FFC24BE140A0059D3D8 /* StoryPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A17FFB24BE140A0059D3D8 /* StoryPhotoCell.swift */; };
+		49A17FFE24BE14490059D3D8 /* StoriesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A17FFD24BE14490059D3D8 /* StoriesController.swift */; };
+		49A1800024BE14760059D3D8 /* StoryHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A17FFF24BE14760059D3D8 /* StoryHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4921454524BAE435004EA61C /* InstagramApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4921454824BAE435004EA61C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4921454A24BAE435004EA61C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4921454C24BAE435004EA61C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4921454E24BAE439004EA61C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4921455124BAE439004EA61C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4921455424BAE439004EA61C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4921455624BAE439004EA61C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4921455F24BAE4A0004EA61C /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		49A17FF924BE13D70059D3D8 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		49A17FFB24BE140A0059D3D8 /* StoryPhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPhotoCell.swift; sourceTree = "<group>"; };
+		49A17FFD24BE14490059D3D8 /* StoriesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesController.swift; sourceTree = "<group>"; };
+		49A17FFF24BE14760059D3D8 /* StoryHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4921455E24BAE48F004EA61C /* LBTATools in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +68,11 @@
 			children = (
 				4921454824BAE435004EA61C /* AppDelegate.swift */,
 				4921454A24BAE435004EA61C /* SceneDelegate.swift */,
-				4921454C24BAE435004EA61C /* ContentView.swift */,
+				4921455F24BAE4A0004EA61C /* MainController.swift */,
+				49A17FF924BE13D70059D3D8 /* PostCell.swift */,
+				49A17FFB24BE140A0059D3D8 /* StoryPhotoCell.swift */,
+				49A17FFD24BE14490059D3D8 /* StoriesController.swift */,
+				49A17FFF24BE14760059D3D8 /* StoryHeader.swift */,
 				4921454E24BAE439004EA61C /* Assets.xcassets */,
 				4921455324BAE439004EA61C /* LaunchScreen.storyboard */,
 				4921455624BAE439004EA61C /* Info.plist */,
@@ -91,6 +105,9 @@
 			dependencies = (
 			);
 			name = InstagramApp;
+			packageProductDependencies = (
+				4921455D24BAE48F004EA61C /* LBTATools */,
+			);
 			productName = InstagramApp;
 			productReference = 4921454524BAE435004EA61C /* InstagramApp.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +136,9 @@
 				Base,
 			);
 			mainGroup = 4921453C24BAE435004EA61C;
+			packageReferences = (
+				4921455C24BAE48F004EA61C /* XCRemoteSwiftPackageReference "LBTATools" */,
+			);
 			productRefGroup = 4921454624BAE435004EA61C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -146,9 +166,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A17FFC24BE140A0059D3D8 /* StoryPhotoCell.swift in Sources */,
+				49A1800024BE14760059D3D8 /* StoryHeader.swift in Sources */,
+				4921456024BAE4A0004EA61C /* MainController.swift in Sources */,
 				4921454924BAE435004EA61C /* AppDelegate.swift in Sources */,
 				4921454B24BAE435004EA61C /* SceneDelegate.swift in Sources */,
-				4921454D24BAE435004EA61C /* ContentView.swift in Sources */,
+				49A17FFA24BE13D70059D3D8 /* PostCell.swift in Sources */,
+				49A17FFE24BE14490059D3D8 /* StoriesController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +366,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4921455C24BAE48F004EA61C /* XCRemoteSwiftPackageReference "LBTATools" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bhlvoong/LBTATools.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.17;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4921455D24BAE48F004EA61C /* LBTATools */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4921455C24BAE48F004EA61C /* XCRemoteSwiftPackageReference "LBTATools" */;
+			productName = LBTATools;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4921453D24BAE435004EA61C /* Project object */;
 }
