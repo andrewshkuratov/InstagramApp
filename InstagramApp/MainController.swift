@@ -29,13 +29,16 @@ class MainController: LBTAListHeaderController<PostCell, String, StoryHeader>, U
         .init(top: 10, left: 0, bottom: 0, right: 0)
     }
     
+    let instagramIcon = UIImageView(image: UIImage(named: "instagramIcon"))
+    let messagesButton = UIButton(image: UIImage(named: "shareIcon")!, tintColor: .black)
+    //let messagesImage = UIImageView(image: UIImage(named: "shareIcon"), contentMode: .scaleToFill)
+    
     fileprivate func setupNavBar() {
-        let width = view.frame.width - 120 - 16 - 60 - 60
-        
+        let width = UIScreen.main.bounds.width - 60 - 120 - 10
         let titleView = UIView(backgroundColor: .clear)
-        titleView.frame = .init(x: 0, y: 0, width: width, height: 50)
+        titleView.frame = .init(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 50)
         
-        //titleView.hstack(fbLogoImageView.withWidth(120), UIView().withWidth(width), searchButton.withWidth(60), messengerButton.withWidth(60))
+        titleView.hstack(instagramIcon.withWidth(120), UIView().withWidth(width), messagesButton.withWidth(60))
         
         navigationItem.titleView = titleView
     }
